@@ -1,0 +1,7 @@
+---
+applications:
+- name: messaging-service
+  memory: 512M
+  buildpack: java_buildpack
+  domain: cfapps.io
+  timeout: 160
